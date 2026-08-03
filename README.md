@@ -3,7 +3,7 @@
 
 <h2 align="center">Overview</h3>
 
-This is a fully 3D printable and easy to assemble Groove Coaster controller that is compatable with Switch & Xinput. I wanted the barrier of entry to be as low as possible, so it is designed to require no soldering, minimal 3D printing experience (parts require minimal post-processing), and zero programming experience. This project is a combination of my own designs as well as some great work from the community, see the **Credits & Thanks** near the bottom for more information!
+This is a fully 3D printable and easy to assemble Groove Coaster controller that is compatible with Switch & Xinput. I wanted the barrier of entry to be as low as possible, so it is designed to require no soldering, minimal 3D printing experience (parts require minimal post-processing), and zero programming experience. This project is a combination of my own designs as well as some great work from the community, see the **Credits & Thanks** near the bottom for more information!
 
 <h2 align="center">Features</h3>
 
@@ -180,7 +180,7 @@ These instructions are largely based on [CrazyRedMachine's](https://github.com/C
 <h2 align="center">Notes</h2>
 
 - If you are running into trouble, have specific questions, or want to help, feel free to reach out on discord (skitte), as well as fork and contribute to the project on GitHub!
-- This is a rough draft of the README, will be updated with more detailed images and instructions in the future!
+- This is a rough draft of the README; it will be updated with more detailed images and instructions in the future!
 - The Joystick Button Assembly may require some post processing, and I am in the process of redesigning it to be simpler to print.
 
 <h2 align="center">Credits & Thanks</h2>
