@@ -25,6 +25,7 @@ This is a fully 3D printable and easy to assemble Groove Coaster controller that
 - (**1x**) [2.8mm Hitbox Terminal Connectors](https://www.aliexpress.us/item/3256805906495100.html?spm=a2g0o.order_list.order_list_main.29.2a8d18022Ax2eS&gatewayAdapt=glo2usa)
     - I went with these as I was not sure how to solder and daisy chain ground wires, but if you are comfortable with soldering, you can use the [4.8mm Connectors](https://www.aliexpress.us/item/3256806216358457.html?spm=a2g0o.detail.0.0.6c1fUcXrUcXr8D&mp=1&pdp_npi=6%40dis%21USD%21USD+10.84%21USD+10) instead. It's quite jank, but you can bend the 2.8mm terminals to fit the 4.8mm connectors.
 - (**1x**) [USB-A to USB-C Header](https://www.aliexpress.us/item/3256811414880220.html?spm=a2g0o.order_list.order_list_main.24.2a8d18022Ax2eS&gatewayAdapt=glo2usa)
+- (**1x**) [Dupont Wire Pack](https://www.amazon.com/dp/B01EV70C78)
 
 <h3 align="left">3D Printing</h2>
 
@@ -160,12 +161,17 @@ These instructions are largely based on [CrazyRedMachine's](https://github.com/C
     <img src="Images\board_manager_2.png" height = 250>
 </p>
 
+<h2 align="center">Notes</h2>
+- If you are running into trouble, have specific questions, or want to help, feel free to reach out on discord (skitte), as well as fork and contribute to the project on GitHub!
+- This is a rough draft of the README, will be updated with more detailed images and instructions in the future!
+- The Joystick Button Assembly may require some post processing, and I am in the process of redesigning it to be simpler to print.
+
 <h2 align="center">Credits & Thanks</h2>
 
 - [Rigo Howard](https://github.com/RigoHoward/groove-coaster-printable-shell/blob/main/README.md)
     - The Arduino code for this controller is largely based on Rigo's adaptation of CrazyRedMachine's LUFAHybridFightstick code. I also used his 3D printable shell design as a reference for my own design.
 - [CONS&STUFF](https://consandstuff.github.io/)
-    - Fantastic community who answered some of the lingering questions I had!
+    - Fantastic community who answered some of the lingering questions I had (shout out Rigo again)!
 - [Vikbez](https://github.com/vikbez/groovecoastercontroller)
     - Used for design references and dimensions, as well as the Joystick STL.
 - [CrazyRedMachine](https://github.com/CrazyRedMachine/LUFAHybridFightstick/tree/master)
