@@ -44,7 +44,7 @@ This is a fully 3D printable and easy to assemble Groove Coaster controller that
 <h3 align="left">Hardware</h2>
 
 - M3
-    - (**6x**) M3x16mm Screws (Connects Joystick Assembly to Center Assembly)
+    - (**8x**) M3x16mm Screws (Connects Joystick Assembly to Center Assembly & Joystick Tube to Joystick Button)
     - (**8x**) M3x12mm Screws (Connects Joystick Bracket to Joystick Assembly)
     - (**4x**) M3x6mm Screws (Connects Leonardo R3 to Center Assembly)
     - (**2x**) M3x8mm Screws (OPTIONAL: Connects Joystick Tube to Joystick Shaft)
@@ -84,6 +84,7 @@ This is a fully 3D printable and easy to assemble Groove Coaster controller that
     - IMPORTANT: Ensure that the header on the JLF Joystick is facing the center of the controller, so that the wires can reach the Leonardo R3.
 
 <p align="center">
+    <img src="Images\joystick_rubber_band_irl.png" height = 250>
     <img src="Images\joystick_rubber_band.png" height = 250>
     <img src="Images\joystick_screws.png" height = 250>
 </p>
@@ -94,15 +95,29 @@ This is a fully 3D printable and easy to assemble Groove Coaster controller that
     - IMPORTANT: Ensure that the actual buttons are facing towards the center of the controller, so that there is enough clearance for the wires to reach the Leonardo R3.
 2. Place 3x 33mm Square Push Buttons into the Center Assembly, and secure with the nut provided with the button.
     - IMPORTANT: Ensure that the actual buttons are facing towards the center of the controller, so that there is enough clearance for the wires to reach the Leonardo R3.
+3. Place 2x 60mm Circle Push Buttons into each Joystick Button 3d Print.
+    - For now, remove the actual switch from the button. We will install this later to make our lives easier in the Electronics Assembly
 
 <h3 align="center">Electronics Assembly</h3>
 
 1. Place the Leonardo R3 into the Center Assembly, and secure with 4x M3x6mm
     - IMPORTANT: Do not overtighten the screws, as the plastic is thin and can crack easily.
 2. Insert the USB-A to USB-C header into the Center Assembly, and secure with the nut provided with the header.
-3. Use 1x ground daisy chain wire to connect all the buttons and the joystick to the ground pin on the Leonardo R3.
-4. Use 5x connectors to connect the buttons and joystick to the appropriate pins on the Leonardo R3.
+3. Use 1x ground daisy chain wire to connect all the buttons to the ground pin on the Leonardo R3.
+4. Use 5x connectors to connect the buttons to the appropriate pins on the Leonardo R3.
     - The end of the wire is a female connector, so youll need to use a male to male wire to connect to the Leonardo R3.
+5. Connect the daisy chain ground wire to each 60mm Circle Push Button switch.
+6. Use 1x connector on each Circle Push Button switch and thread through the joystick tube.
+    - IMPORTANT: This step is kinda wonky, see the IRL image below. The switch should just be floating in the tube for now
+7. Attach the switch to the 60mm Circle Push Button, then place the whole assembly on top of the joystick tube.
+8. When the button is placed on the tube, twist the top part, while holding the tube from the bottom, to secure it.
+9. Use 1x M3*16 on each Joystick button to secure the tube to the button.  
+
+<p align="center">
+    <img src="Images\joystick_bracket.png" height = 250>
+    <img src="Images\joystick_tube_twist.png" height = 250>
+    <img src="Images\joystick_tube_screw.png" height = 250>
+</p>
 
 <h3 align="center">Wiring</h3>
 
@@ -173,7 +188,7 @@ These instructions are largely based on [CrazyRedMachine's](https://github.com/C
 - [Rigo Howard](https://github.com/RigoHoward/groove-coaster-printable-shell/blob/main/README.md)
     - The Arduino code for this controller is largely based on Rigo's adaptation of CrazyRedMachine's LUFAHybridFightstick code. I also used his 3D printable shell design as a reference for my own design.
 - [CONS&STUFF](https://consandstuff.github.io/)
-    - Fantastic community who answered some of the lingering questions I had (shout out Rigo again)!
+    - Fantastic community who answered some of the lingering questions I had (shout out Rigo again), as well as great vibes and supported my progress!
 - [Vikbez](https://github.com/vikbez/groovecoastercontroller)
     - Used for design references and dimensions, as well as the Joystick STL.
 - [CrazyRedMachine](https://github.com/CrazyRedMachine/LUFAHybridFightstick/tree/master)
