@@ -11,6 +11,7 @@ This is a fully 3D printable and easy to assemble Groove Coaster controller that
 - Fully 3D printable, with minimal post-processing required
 - Easy to assemble, no soldering or programming required
 - Relatively cheap to build
+- L & R buttons included to support Groove Coaster: Future Performers
 
 <h2 align="center">Parts List</h3>
 
