@@ -89,6 +89,7 @@ This is a fully 3D printable and easy to assemble Groove Coaster controller that
 </p>
 
 <h3 align="center">Button Assembly</h3>
+
 1. Place 2x 51mm Square Push Buttons into the Center Assembly, and secure with the nut provided with the button.
     - IMPORTANT: Ensure that the actual buttons are facing towards the center of the controller, so that there is enough clearance for the wires to reach the Leonardo R3.
 2. Place 3x 33mm Square Push Buttons into the Center Assembly, and secure with the nut provided with the button.
