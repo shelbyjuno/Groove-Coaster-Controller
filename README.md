@@ -162,6 +162,7 @@ These instructions are largely based on [CrazyRedMachine's](https://github.com/C
 </p>
 
 <h2 align="center">Notes</h2>
+
 - If you are running into trouble, have specific questions, or want to help, feel free to reach out on discord (skitte), as well as fork and contribute to the project on GitHub!
 - This is a rough draft of the README, will be updated with more detailed images and instructions in the future!
 - The Joystick Button Assembly may require some post processing, and I am in the process of redesigning it to be simpler to print.
