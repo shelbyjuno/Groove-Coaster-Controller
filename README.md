@@ -23,7 +23,10 @@ This is a fully 3D printable and easy to assemble Groove Coaster controller that
 - (**2x**) [51mm Square Push Buttons](https://www.aliexpress.us/item/2255799984241874.html?spm=a2g0o.order_list.order_list_main.19.2a8d18022Ax2eS&gatewayAdapt=glo2usa)
 - (**2x**) [Sanwa JLF Joystick](https://www.aliexpress.us/item/2255799843325270.html?spm=a2g0o.order_list.order_list_main.20.2a8d18022Ax2eS&gatewayAdapt=glo2usa)
 - (**1x**) [2.8mm Hitbox Terminal Connectors](https://www.aliexpress.us/item/3256805906495100.html?spm=a2g0o.order_list.order_list_main.29.2a8d18022Ax2eS&gatewayAdapt=glo2usa)
-    - I went with these as I was not sure how to solder and daisy chain ground wires, but if you are comfortable with soldering, you can use the [4.8mm Connectors](https://www.aliexpress.us/item/3256806216358457.html?spm=a2g0o.detail.0.0.6c1fUcXrUcXr8D&mp=1&pdp_npi=6%40dis%21USD%21USD+10.84%21USD+10) instead. It's quite jank, but you can bend the 2.8mm terminals to fit the 4.8mm connectors.
+    - **IMPORTANT:** This is NOT ideal, as the 2.8mm terminals are smaller than the 4.8mm connectors on the buttons and joysticks. The reason I used these was I was unable to find a daisy chain wire with 4.8mm terminals, and I wanted to avoid soldering. You can either use pliers to bend the 2.8mm terminals to fit the 4.8mm connectors, or use a small flathead screwdriver to pry up the 2.8mm terminals to fit the 4.8mm connectors.
+        - If you find a daisy chain wire with 4.8mm terminals, please let me know!
+    - If you are comfortable with soldering, you can use [4.8mm connectors](https://www.aliexpress.us/item/3256806216358457.html?spm=a2g0o.detail.0.0.6c1fUcXrUcXr8D&mp=1&pdp_npi=6%40dis%21USD%21USD+10.84%21USD+10) instead of the 2.8mm, and solder the wires together to make a daisy chain.
+    It's quite jank, but you can bend the 2.8mm terminals to fit the 4.8mm connectors.
 - (**1x**) [USB-A to USB-C Header](https://www.aliexpress.us/item/3256811414880220.html?spm=a2g0o.order_list.order_list_main.24.2a8d18022Ax2eS&gatewayAdapt=glo2usa)
 - (**1x**) [Dupont Wire Pack](https://www.amazon.com/dp/B01EV70C78)
 
