@@ -30,9 +30,9 @@ This is a fully 3D printable and easy to assemble Groove Coaster controller that
 <h3 align="left">3D Printing</h2>
 
 - Case Assembly
-    - (**1x**) Center Assembly
+    - (**1x**) Center Assembly (**IMPORTANT: REQUIRES PAUSING PRINT TO INSERT NUTS**)
     - (**1x**) Center Assembly Bottom
-    - (**2x**) Joystick Assembly
+    - (**2x**) Joystick Assembly (**IMPORTANT: REQUIRES PAUSING PRINT TO INSERT NUTS**)
     - (**2x**) Joystick Assembly Bottom
 
 - Joystick Assembly
@@ -64,11 +64,17 @@ This is a fully 3D printable and easy to assemble Groove Coaster controller that
 <h3 align="center">Chassis Assembly</h3>
 
 1. Print all required parts from the 3D Printing section above. (see print orientation below)
+    - **IMPORTANT:** The center assembly and joystick assembly require pausing the print to insert nuts. The nuts should be inserted into the hexagonal holes, and the print should be resumed after inserting the nuts. You should set the print to pause the layer before the nut is fully enclosed, so that you can insert the nut and resume the print. The center assembly requires 4x M3 nuts, and the joystick assembly requires 3x M3 nuts on each side. (see image below)
+    - **If you forget to pause the print, no need to reprint the part! You have a couple options:**
+        1. Print the **Center Assembly Bottom M4** and **Joystick Assembly Bottom M4** parts instead of the regular parts. It has larger holes to use an M4 screw instead of an M3, so you can directly screw into the plastic without needing to use nuts.
+        2. Use a soldering iron to heat up the nuts and push them into the hexagonal holes. (I have not tried this, but it should work)
 2. Use 3x M3*16mm screws and 3x M3 nuts on each side to secure the Joystick Assembly to the Center Assembly. (see image below)
 3. Use 4x M5x12mm screws and 4x M5 nuts to secure the Joystick Cover to the Joystick Assembly. (see image below)
 
 <p align="center">
     <img src="Images\print_orientation.png" height = 250>
+    <img src="Images\joystick_nut.png" height = 250>
+    <img src="Images\center_nut.png" height = 250>
     <img src="Images\assembly_screw.png" height=250>
     <img src="Images\joystick_cover_screw.png" height=250>
 </p>
@@ -177,8 +183,17 @@ These instructions are largely based on [CrazyRedMachine's](https://github.com/C
     <img src="Images\board_manager_2.png" height = 250>
 </p>
 
+<h2 align="center">Troubleshooting</h2>
+If you are having issues with the firmware, here are some things to try:
+- See if the "blink" sketch works on your Leonardo R3.
+- Try uploading the code with everything disconnected except the Leonardo R3.
+- Try to CrazyRedMachine's LUFAHybridFightstick code, and see if that works.
+- Start with a fresh project, and ensure that you have the Bounce2 library installed, and the LUFA AVR Boards installed, and that you have selected the correct board type (Arduino Leonardo (LUFA)).
+- If you are still having issues, see notes below about reaching out for help!
+
 <h2 align="center">Notes</h2>
 
+- To swap between Switch and Xinput, hold SELECT when plugging in to swap to Xinput, and hold START when plugging in to swap to Switch. The controller will default to Switch if no buttons are held when plugging in.
 - If you are running into trouble, have specific questions, or want to help, feel free to reach out on discord (skitte), as well as fork and contribute to the project on GitHub!
 - This is a rough draft of the README; it will be updated with more detailed images and instructions in the future!
 - The Joystick Button Assembly may require some post processing, and I am in the process of redesigning it to be simpler to print.
